@@ -123,10 +123,10 @@ class SUHomeContentViewModel: ObservableObject, Codable {
     }
     
     func openService(completion: ((_ error: Error?)-> Void)?) {
-        guard (self.activingEndpoint != nil) else {
-            completion?(NSError(domain: "ErrorDomain", code: -1, userInfo: ["error" : "没有激活服务节点"]))
-            return
-        }
+        //guard (self.activingEndpoint != nil) else {
+        //    completion?(NSError(domain: "ErrorDomain", code: -1, userInfo: ["error" : "没有激活服务节点"]))
+        //    return
+        //}
         
         let configData = try? JSONEncoder().encode(self.v2rayConfig)
         guard configData != nil else {
