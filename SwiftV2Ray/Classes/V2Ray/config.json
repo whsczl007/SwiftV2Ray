@@ -26,16 +26,16 @@
             "settings":{
                 "vnext":[
                     {
-                        "address":"ssl.miwukeji.net",
+                        "address":"43.154.37.157",
                         "users":[
                             {
-                                "id":"29f1ae2e-e29d-d804-7bcd-e01b5dfcf26a",
-                                "alterId":64,
+                                "id":"bae94571-8196-4d88-af6b-3eb4ef617c2f1",
+                                "alterId":0,
                                 "level":0,
                                 "security":"auto"
                             }
                         ],
-                        "port":443
+                        "port":30820
                     }
                 ]
             }
